@@ -1,0 +1,15 @@
+package com.codingo.flowcontrol;
+
+public class ForStatement2 {
+	public static void main(String[] args) {
+
+		String[] planets = { "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Pluto" };
+		for (int i = 0; i < planets.length; i++) {
+			System.out.println(planets[i]);
+		}
+		System.out.println("In reverse:");
+		for (int i = planets.length - 1; i >= 0; i--) {
+			System.out.println(planets[i]);
+		}
+	}
+}
